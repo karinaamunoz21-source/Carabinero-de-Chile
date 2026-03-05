@@ -1,0 +1,96 @@
+{
+  "name": "Carabineros-de-Chile-Pandilla",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "GameConfig": {
+        "$path": "src/ReplicatedStorage/GameConfig.lua"
+      },
+      "RemoteEvents": {
+        "$path": "src/ReplicatedStorage/RemoteEvents.lua"
+      },
+      "DataManager": {
+        "$path": "src/ReplicatedStorage/DataManager.lua"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GameInit": {
+        "$path": "src/ServerScriptService/GameInit.server.lua"
+      },
+      "GroupDoorSystem": {
+        "$path": "src/ServerScriptService/GroupDoorSystem.server.lua"
+      },
+      "RobberySystem": {
+        "$path": "src/ServerScriptService/RobberySystem.server.lua"
+      },
+      "ShopSystem": {
+        "$path": "src/ServerScriptService/ShopSystem.server.lua"
+      },
+      "LootingSystem": {
+        "$path": "src/ServerScriptService/LootingSystem.server.lua"
+      },
+      "WeaponSystem": {
+        "$path": "src/ServerScriptService/WeaponSystem.server.lua"
+      },
+      "PrisonSystem": {
+        "$path": "src/ServerScriptService/PrisonSystem.server.lua"
+      },
+      "AdminCommands": {
+        "$path": "src/ServerScriptService/AdminCommands.server.lua"
+      },
+      "SWATSystem": {
+        "$path": "src/ServerScriptService/SWATSystem.server.lua"
+      },
+      "PrivateServerSystem": {
+        "$path": "src/ServerScriptService/PrivateServerSystem.server.lua"
+      },
+      "ChatCommands": {
+        "$path": "src/ServerScriptService/ChatCommands.server.lua"
+      },
+      "MapBuilder": {
+        "$path": "src/ServerScriptService/MapBuilder.server.lua"
+      }
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "MainHUD": {
+        "$path": "src/StarterGui/MainHUD.client.lua"
+      },
+      "ShopUI": {
+        "$path": "src/StarterGui/ShopUI.client.lua"
+      },
+      "TeamSelectUI": {
+        "$path": "src/StarterGui/TeamSelectUI.client.lua"
+      },
+      "FloatingIcons": {
+        "$path": "src/StarterGui/FloatingIcons.client.lua"
+      },
+      "RobberyUI": {
+        "$path": "src/StarterGui/RobberyUI.client.lua"
+      },
+      "BagUI": {
+        "$path": "src/StarterGui/BagUI.client.lua"
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$properties": {
+        "CharacterWalkSpeed": 16,
+        "CharacterJumpPower": 50
+      }
+    }
+  }
+}
